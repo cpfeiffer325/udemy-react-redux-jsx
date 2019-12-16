@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# UDEMY React and Redux Course
+
+## List of Learning Projects
+1. Components
+2. Pics
+3. Seasons
+4. Videos
+
+These projects were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
