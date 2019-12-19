@@ -6,10 +6,10 @@ class SearchBar extends React.Component {
   onInputChange = event => {
     this.setState({ term: event.target.value })
   }
-  onInputChange = event => {
+  onFormSubmit = event => {
     event.preventDefault()
 
-    // TODO: Make sure we make a callback to the parent component
+    this.props.onFormSubmit(this.state.term)
   }
 
   render() {
