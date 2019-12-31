@@ -5,6 +5,7 @@
 2. Pics
 3. Seasons
 4. Videos
+5. Songs
 
 These projects were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
