@@ -6,6 +6,7 @@
 3. Seasons
 4. Videos
 5. Songs
+6. Blog
 
 These projects were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
