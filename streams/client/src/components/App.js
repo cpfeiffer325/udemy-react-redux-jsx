@@ -9,15 +9,18 @@ import StreamShow from './streams/StreamShow'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div>
-        <Route path="/" exact component={StreamList} />
-        <Route path="/streams/new" exact component={StreamCreate} />
-        <Route path="/streams/edit" exact component={StreamEdit} />
-        <Route path="/streams/show" exact component={StreamShow} />
-        <Route path="/streams/delete" exact component={StreamDelete} />
-      </div>
-    </BrowserRouter>
+    <div>
+      <h1>Header!</h1>
+      <BrowserRouter>
+        <div>
+          <Route path="/" exact component={StreamList} />
+          <Route path="/streams/new" exact component={StreamCreate} />
+          <Route path="/streams/edit" exact component={StreamEdit} />
+          <Route path="/streams/show" exact component={StreamShow} />
+          <Route path="/streams/delete" exact component={StreamDelete} />
+        </div>
+      </BrowserRouter>
+    </div>
   )
 }
 
