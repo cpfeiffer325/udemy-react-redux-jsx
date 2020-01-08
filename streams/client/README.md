@@ -3,8 +3,7 @@
 React Redux exercise to create a page for video creation and video streaming 
 
 ## Dependencies
-- lodash
 - react
+- react-router-dom
 - react-redux
 - redux
-- redux-thunk
