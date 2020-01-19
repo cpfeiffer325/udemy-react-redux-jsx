@@ -8,6 +8,7 @@ import StreamShow from './streams/StreamShow'
 import Header from './Header'
 import history from '../history'
 
+// defines the route and identifiers that will show up in the props
 const App = () => {
   return (
     <div className="ui container">
@@ -18,7 +19,7 @@ const App = () => {
           <Route path="/streams/new" exact component={StreamCreate} />
           <Route path="/streams/edit/:id" exact component={StreamEdit} />
           <Route path="/streams/show" exact component={StreamShow} />
-          <Route path="/streams/delete" exact component={StreamDelete} />
+          <Route path="/streams/delete/:id" exact component={StreamDelete} />
         </div>
       </Router>
     </div>
