@@ -5,6 +5,3 @@ App used to test the context system principles for communicating props from pare
 
 ## Dependencies
 - react
-- react-router-dom
-- react-redux
-- redux

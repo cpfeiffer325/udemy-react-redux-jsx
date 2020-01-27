@@ -8,6 +8,7 @@
 5. Songs: Selecting song details
 6. Blog: Blog with API generated entries
 7. Streams: Video creating and streaming
+8. Hooks-simple: Using hooks
 
 These projects were bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
